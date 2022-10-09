@@ -16,8 +16,18 @@ header h1 {
     font-size: 4rem;
     text-align: center;
 }
-.nav-container {
+
+main {
+    height: 70%;
+}
+aside {
+    height: 30%;
     float: right;
+    align-content: left;
+
+}
+.nav-container {
+    float: left;
     
     
 }
@@ -66,7 +76,14 @@ section article h2, section article p {
     object-fit: cover;
 }
 
+main img {
+    height: 400px;
+    width: 800px;
+    object-fit: cover;
+}
+
 footer {
+    float: inline-end;
     background-color: #222;
     padding: 3rem;
     color: #fff;
